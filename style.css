@@ -1,0 +1,65 @@
+/* Basic styles for the entire page */
+body {
+  font-family: Arial, sans-serif; /* Sets the font for the whole page */
+  margin: 20px; /* Adds space around the page content */
+  background-color: #f0f8ff; /* Alice blue background for the page */
+}
+
+/* Styles for the main article container */
+article {
+  background-color: #ffffff; /* White background for the article */
+  padding: 20px; /* Adds space inside the article */
+  border: 2px solid #cce7ff; /* Light blue border around the article */
+  border-radius: 10px; /* Rounds the corners of the border */
+  max-width: 800px; /* Limits the width of the article */
+  margin: 0 auto; /* Centers the article horizontally */
+}
+
+/* Styles for the main heading (h1) */
+h1 {
+  color: #003366; /* Dark blue color for the main heading */
+  font-size: 2.5em; /* Larger font size for the main heading */
+  margin-bottom: 15px; /* Adds space below the heading */
+  text-shadow: 1px 1px 2px #666666; /* Adds shadow to the text */
+}
+
+/* Styles for secondary headings (h2) */
+h2 {
+  color: #004d99; /* Deep blue color for secondary headings */
+  font-size: 2em; /* Medium font size for secondary headings */
+  border-bottom: 2px solid #004d99; /* Underline with deep blue border */
+  padding-bottom: 8px; /* Adds space below the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles for tertiary headings (h3) */
+h3 {
+  color: #0066cc; /* Medium blue color for tertiary headings */
+  font-size: 1.5em; /* Slightly smaller font size for tertiary headings */
+  margin-top: 20px; /* Adds space above the heading */
+  margin-bottom: 10px; /* Adds space below the heading */
+}
+
+/* Styles for paragraphs (p) */
+p {
+  color: #333333; /* Dark gray color for the text */
+  line-height: 1.8; /* Increases line height for better readability */
+  margin-bottom: 15px; /* Adds space below each paragraph */
+}
+
+/* Styles for links (a) */
+a {
+  color: #ff4500; /* Orange color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+  color: #ff6347; /* Tomato color for links on hover */
+  text-decoration: underline; /* Adds underline on hover for links */
+}
+
+/* Styles for line breaks (br) */
+br {
+  display: block; /* Makes line breaks take up space */
+  margin: 10px 0; /* Adds space above and below line breaks */
+}
